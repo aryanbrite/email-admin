@@ -39,6 +39,7 @@ button {
 button:hover {
     background-color: white;
     color: black;
+    cursor:auto;
 }
 
 .head {
@@ -54,7 +55,7 @@ button:hover {
 
 #send {
     border-left: 2px solid white;
-    height: 88.22px;
+    height: 110%;
     padding-left: 4%;
     padding-right: 4%;
 }
