@@ -1,0 +1,28 @@
+@font-face {
+    font-family: face;
+    src:url(assets/safiro-medium-webfont.ttf);
+}
+
+h1 {
+    font-family: face;
+    color: white;
+
+    font-size: 36px;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5%;
+}
+
+button {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    border-color: white;
+}
