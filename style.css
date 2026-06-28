@@ -6,7 +6,14 @@
 h1 {
     font-family: face;
     color: white;
+    font-weight: 1;
+    font-size: 36px;
+}
 
+button {
+    font-family: face;
+    color: white;
+    font-weight: 1;
     font-size: 36px;
 }
 
@@ -25,4 +32,29 @@ button {
     padding: 15px;
     color: white;
     border-color: white;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    border: 2px solid white;
+    padding-left: 3%;
+    
+
+}
+
+#send {
+    border-left: 2px solid white;
+    height: 88.22px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
