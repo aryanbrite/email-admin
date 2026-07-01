@@ -18,14 +18,45 @@ main {
 }
 #from {
     margin-left: 20px;
+    user-select: none;
 }
 p{
     font-family:'Courier New', Courier, monospace;
 }
 #recive {
     margin-left: 20px;
+    user-select: none;
 }
 #rec1 {
+    border: none;
+    outline: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+.top {
+    display: flex;
+}
+
+.left,
+#send11 {
+    flex: 1;
+}
+
+#send11{
+    border-left: 1px solid black;
+    height: 81px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#send11 textarea {
+    width: 99%;
+    height: 80%;
+    resize: none;
+    margin: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1em;
     border: none;
     outline: none;
 }
