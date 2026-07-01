@@ -14,10 +14,18 @@ main {
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 #from {
     margin-left: 20px;
 }
 p{
     font-family:'Courier New', Courier, monospace;
+}
+#recive {
+    margin-left: 20px;
+}
+#rec1 {
+    border: none;
+    outline: none;
 }
