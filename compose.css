@@ -63,3 +63,12 @@ p{
     outline: none;
 
 }
+
+#text1 {
+    height: calc(99% - 110px);
+    width: 97.5%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
