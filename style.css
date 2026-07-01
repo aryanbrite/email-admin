@@ -19,6 +19,9 @@ button {
 
 body {
     background-color: black;
+    background-image: url(https://i.pinimg.com/1200x/85/71/e8/8571e8965958d51ba9c3ba993429051a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -49,8 +52,15 @@ button:hover {
     justify-content: space-between;
     border: 2px solid white;
     padding-left: 3%;
+    background-color: black;
+    height: 60px;
     
 
+}
+
+.head h1 {
+    margin: 0;
+    padding: 15px;
 }
 
 #send {

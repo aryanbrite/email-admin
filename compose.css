@@ -1,12 +1,14 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 20px;
+    background-image: url(https://i.pinimg.com/1200x/96/9b/4e/969b4ee51f15e52587479bea556f0c84.jpg);
 }
 main {
     border: 2px solid rgb(0, 0, 0);
     height: calc(100vh - 44px);
     margin-left: 5%;
     margin-right: 3%;
+    background-color: white;
     
 }
 #send1 {
@@ -59,4 +61,5 @@ p{
     font-size: 1em;
     border: none;
     outline: none;
+
 }
