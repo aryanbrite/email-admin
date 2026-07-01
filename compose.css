@@ -17,6 +17,8 @@ main {
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: space-between;
+    padding-right: 15px;
 }
 #from {
     margin-left: 20px;
@@ -30,8 +32,7 @@ p{
     user-select: none;
 }
 #rec1 {
-    border: none;
-    outline: none;
+    
     font-family:'Courier New', Courier, monospace;
     font-size: 1em;
 }
@@ -71,4 +72,10 @@ p{
     margin-top: 10px;
     border: none;
     outline: none;
+    resize: none;
+}
+
+#senn {
+    width: 30px;
+    rotate: 40deg;
 }
