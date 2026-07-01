@@ -1,0 +1,60 @@
+@font-face {
+    font-family: face;
+    src:url(assets/safiro-medium-webfont.ttf);
+}
+
+h1 {
+    font-family: face;
+    color: white;
+    font-weight: 1;
+    font-size: 36px;
+}
+
+button {
+    font-family: face;
+    color: white;
+    font-weight: 1;
+    font-size: 36px;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 5%;
+}
+
+button {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    border-color: white;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor:auto;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    justify-content: space-between;
+    border: 2px solid white;
+    padding-left: 3%;
+    
+
+}
+
+#send {
+    border-left: 2px solid white;
+    padding-left: 4%;
+    padding-right: 4%;
+}
