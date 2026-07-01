@@ -77,5 +77,17 @@ p{
 
 #senn {
     width: 30px;
-    rotate: 40deg;
+    transition: 0.3s;
 }
+
+#senn:hover {
+    rotate: -45deg;
+    transform: translateY(-10%);
+}
+
+#senn:active {
+    rotate: -45deg;
+    transform: translateY(-10%);
+    transform: translateX(10px);
+}
+
