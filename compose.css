@@ -161,3 +161,17 @@ textarea::selection{
     background-color: white;
     color: black;
 }
+#sendBtn{
+    background: none;
+    border: none;
+    outline: none;
+}
+#send2{
+    height: 40px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding-right: 15px;
+}
