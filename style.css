@@ -45,7 +45,7 @@ button:hover {
 .head {
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items:stretch;
     justify-content: space-between;
     border: 2px solid white;
     padding-left: 3%;
@@ -55,7 +55,6 @@ button:hover {
 
 #send {
     border-left: 2px solid white;
-    height: 110%;
     padding-left: 4%;
     padding-right: 4%;
 }
