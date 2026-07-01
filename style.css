@@ -71,3 +71,19 @@ button:hover {
 #sendarea {
     width: 40px;
 }
+p::selection{
+    background-color: white;
+    color: black;
+}
+h1::selection{
+    background-color: white;
+    color: black;
+}
+input::selection{
+    background-color: white;
+    color: black;
+}
+textarea::selection{
+    background-color: white;
+    color: black;
+}
