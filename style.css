@@ -58,3 +58,6 @@ button:hover {
     padding-left: 4%;
     padding-right: 4%;
 }
+#sendarea {
+    width: 40px;
+}
