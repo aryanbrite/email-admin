@@ -1,7 +1,8 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 20px;
-    background-image: url(https://i.pinimg.com/1200x/96/9b/4e/969b4ee51f15e52587479bea556f0c84.jpg);
+    background-image: url(https://i.pinimg.com/1200x/85/71/e8/8571e8965958d51ba9c3ba993429051a.jpg);
+    background-size: cover;
 }
 main {
     border: 2px solid rgb(0, 0, 0);
@@ -35,6 +36,9 @@ p{
     
     font-family:'Courier New', Courier, monospace;
     font-size: 1em;
+    border: none;
+    outline: none;
+    height: 20px;
 }
 .top {
     display: flex;
@@ -88,6 +92,12 @@ p{
 #senn:active {
     rotate: -45deg;
     transform: translateY(-10%);
-    transform: translateX(10px);
+    transform: translateX(20vw);
+    transition: 0.06s;
 }
-
+#senc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}

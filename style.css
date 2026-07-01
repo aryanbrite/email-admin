@@ -71,8 +71,3 @@ button:hover {
 #sendarea {
     width: 40px;
 }
-
-#senc {
-    display: flex;
-    flex-direction: row;
-}
