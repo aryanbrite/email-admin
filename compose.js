@@ -4,6 +4,7 @@ const subject = document.getElementById("send111");
 const text = document.getElementById("text1");
 const toast = document.getElementById("toast");
 const toastText = document.getElementById("toasth2");
+const toastImg = document.getElementById("toastimg");
 
 function showToast(message) {
     toastText.textContent = message;
