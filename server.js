@@ -27,7 +27,7 @@ app.post("/send-email", async (req, res) => {
         }
 
         const result = await resend.emails.send({
-            from: "hi@aryan.my",
+            from: "Aryan Brite <hi@aryan.my>",
             to,
             subject,
             text
