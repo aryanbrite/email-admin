@@ -37,14 +37,14 @@ button.addEventListener("click", async () => {
         const data = await response.json();
 
         if (response.ok) {
-            alert("Email sent successfully!");
+            showToast("Email sent successfully!");
             console.log(data);
         } else {
-            alert(data.error || "Failed to send email.");
+            showToast((data.error || "Failed to send email."));
         }
 
     } catch (err) {
         console.error(err);
-        alert("Server error.");
+        showToast("Server error.");
     }
 });
