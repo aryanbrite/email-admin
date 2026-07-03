@@ -3,9 +3,11 @@ const to = document.getElementById("rec1");
 const subject = document.getElementById("send111");
 const text = document.getElementById("text1");
 const toast = document.getElementById("toast");
+const toastText = document.getElementById("toasth2");
 
 function showToast(message) {
-    toast.textContent = message;
+    toastText.textContent = message;
+
     toast.classList.add("show");
 
     setTimeout(() => {
@@ -21,7 +23,8 @@ button.addEventListener("click", async () => {
     };
 
     if (!email.to || !email.subject || !email.text) {
-        alert("Please fill all fields.");
+        toastImg.src = "https://cdn.hackclub.com/019f294c-4f78-7870-aeb7-b19a674be042/Untitled%20design%20(79).png";
+        showToast("Please fill all fields.");
         return;
     }
 
@@ -37,10 +40,12 @@ button.addEventListener("click", async () => {
         const data = await response.json();
 
         if (response.ok) {
-            showToast("Email sent successfully!");
+            showToast("Email sent !");
             console.log(data);
+            toastImg.src = "https://cdn.hackclub.com/019f290c-9dbb-75e7-a485-2e89c7a5593c/Untitled%20design%20(78).png";
         } else {
-            showToast((data.error || "Failed to send email."));
+            showToast((data.error || "Failed :("));
+            toastImg.src = "https://cdn.hackclub.com/019f294c-4f78-7870-aeb7-b19a674be042/Untitled%20design%20(79).png";
         }
 
     } catch (err) {
