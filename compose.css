@@ -175,3 +175,13 @@ textarea::selection{
     justify-content: space-between;
     padding-right: 15px;
 }
+
+#toast {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    height: 25%;
+    width: 25%;
+    transform: translateX(50%) translateY(-50%);
+    background-color: white;
+}
