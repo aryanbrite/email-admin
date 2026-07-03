@@ -25,7 +25,7 @@ button.addEventListener("click", async () => {
 
     if (!email.to || !email.subject || !email.text) {
         toastImg.src = "https://cdn.hackclub.com/019f294c-4f78-7870-aeb7-b19a674be042/Untitled%20design%20(79).png";
-        showToast("Please fill all fields.");
+        showToast("Fill Feilds");
         return;
     }
 
