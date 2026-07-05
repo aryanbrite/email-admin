@@ -87,3 +87,35 @@ textarea::selection{
     background-color: white;
     color: black;
 }
+.view-emails{
+    margin-top: 10vh;
+}
+#prev1{
+    height: 40px;
+    background-color: black;
+    border-top: 1px solid white;
+    border-right: 2px solid white;
+    border-bottom: 1px solid white;
+    border-left: 2px solid white;
+
+    display: flex;
+    color: white;
+    font-family: face;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    align-items: center;
+}
+#prev1:hover {
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+.emailname {
+    flex: 6;
+}
+.emailsub {
+    flex:30;
+}
+.emailtime{
+    flex:1;
+    align-items: end;
+}
