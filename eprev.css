@@ -86,6 +86,11 @@ textarea::selection{
     padding-right: 40px;
     align-items: center;
     gap: 6px;
+    
+}
+
+.subject1 {
+    user-select: none;
 }
 
 #emailtext {
