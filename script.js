@@ -15,6 +15,7 @@ async function loadEmails(){
         const response = await fetch("/api/emails");
 
         const emails = await response.json();
+
         console.log(emails);
 
 
@@ -40,7 +41,7 @@ async function loadEmails(){
 
 
 
-        emails.forEach((email,index)=>{
+        emails.forEach((email)=>{
 
 
             const box = document.createElement("div");
@@ -69,13 +70,8 @@ async function loadEmails(){
 
             box.onclick=function(){
 
-                localStorage.setItem(
-                    "selectedEmail",
-                    JSON.stringify(email)
-                );
-
-
-                window.location.href="eprev.html";
+                window.location.href =
+                `eprev.html?id=${email.id}`;
 
             };
 
@@ -84,6 +80,7 @@ async function loadEmails(){
 
 
         });
+
 
 
     }
