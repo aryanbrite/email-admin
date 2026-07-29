@@ -184,3 +184,10 @@ textarea::selection{
     scale: 0.95;
     transition: 0.1s;
 }
+
+#time {
+    position: fixed;
+    top: 0;
+    left :7.5vw;
+    color: black;
+}
