@@ -127,6 +127,7 @@ textarea::selection{
     top: 1vw;
     right: 1vw;
     z-index: 1000;
+    transition: 0.3s;
 }
 #con {
     height: 120px;
@@ -137,4 +138,18 @@ textarea::selection{
     background-color: white;
     z-index: 100;
     clip-path: polygon(0 0, 100% 0, 100% 100%);
+    transition: 0.3s;
+}
+
+#github:hover{
+    scale: 1.20;
+}
+
+#con:hover #github  {
+    height: 140px;
+}
+
+#github:active{
+    scale: 1.10;
+    transition: 0.1s;
 }
