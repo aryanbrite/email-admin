@@ -6,8 +6,6 @@ const id = params.get("id");
 if(!id){
     window.location.href = "index.html";
 }
-
-
 async function loadEmail(){
 
     try{
