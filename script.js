@@ -71,7 +71,7 @@ async function loadEmails(){
             box.onclick=function(){
 
                 window.location.href =
-                `eprev.html?id=${email.id}`;
+                `./eprev.html?id=${encodeURIComponent(email.id)}`;
 
             };
 

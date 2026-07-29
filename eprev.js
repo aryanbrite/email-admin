@@ -4,28 +4,19 @@ const id = params.get("id");
 
 
 if(!id){
-
     window.location.href = "index.html";
-
 }
-
 
 
 async function loadEmail(){
 
     try{
 
-
-        const response = await fetch(
-            `/api/get-email?id=${id}`
-        );
-
+        const response = await fetch(`/api/get-email?id=${id}`);
 
         const email = await response.json();
 
-
         console.log(email);
-
 
 
         document.querySelector(".emailname").textContent =
@@ -41,21 +32,18 @@ async function loadEmail(){
 
 
         if(email.text){
-
             content = email.text;
-
         }
         else if(email.html){
-
             content = email.html;
-
+        }
+        else if(email.body){
+            content = email.body;
         }
 
 
 
-        document.querySelector("#emailtext p").textContent =
-        content;
-
+        document.querySelector("#emailtext p").textContent = content;
 
 
     }
@@ -63,14 +51,12 @@ async function loadEmail(){
 
         console.log(error);
 
-
         document.querySelector("#emailtext p").textContent =
         "Cannot load email";
 
     }
 
 }
-
 
 
 loadEmail();
