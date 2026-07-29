@@ -15,6 +15,7 @@ async function loadEmails(){
         const response = await fetch("/api/emails");
 
         const emails = await response.json();
+        console.log(emails);
 
 
         emailList.innerHTML = "";
