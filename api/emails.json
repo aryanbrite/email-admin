@@ -1,8 +1,0 @@
-[
-  {
-    "from": "example@gmail.com",
-    "subject": "Test email",
-    "text": "This is a test inbox message",
-    "time": "10:30 AM"
-  }
-]
