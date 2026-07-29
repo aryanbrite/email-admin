@@ -119,3 +119,22 @@ textarea::selection{
     flex:1;
     align-items: end;
 }
+
+#github {
+    width: 40px;
+    rotate: 40deg;
+    position: fixed;
+    top: 1vw;
+    right: 1vw;
+    z-index: 1000;
+}
+#con {
+    height: 120px;
+    width: 120px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
