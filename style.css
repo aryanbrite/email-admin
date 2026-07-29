@@ -159,6 +159,7 @@ textarea::selection{
     width: 50px;
     position: fixed;
     left: 1.5vw;
+    transition: 0.3s;
 }
 
 #ref1 {
@@ -172,5 +173,14 @@ textarea::selection{
     top: 36vh;
     
 }#ref5 {
-    top: 44vh;
+    top: 45vh;
+}
+
+.ref:hover{
+    scale: 1.1;
+}
+
+.ref:active {
+    scale: 0.95;
+    transition: 0.1s;
 }
