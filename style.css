@@ -153,3 +153,24 @@ textarea::selection{
     scale: 1.10;
     transition: 0.1s;
 }
+
+.ref {
+    display: inline;
+    width: 50px;
+    position: fixed;
+    left: 1.5vw;
+}
+
+#ref1 {
+    top: 27vh;
+}
+#ref2 {
+    top: 18vh;
+}#ref3 {
+    top: 9vh;
+}#ref4 {
+    top: 36vh;
+    
+}#ref5 {
+    top: 44vh;
+}
