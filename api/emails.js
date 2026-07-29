@@ -3,7 +3,7 @@ const { Resend } = require("resend");
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 
-module.exports = async (req,res)=>{
+module.exports = async(req,res)=>{
 
     if(req.method !== "GET"){
         return res.status(405).json({
@@ -14,7 +14,7 @@ module.exports = async (req,res)=>{
 
     try {
 
-        const { data, error } = await resend.emails.receiving.list();
+        const { data,error } = await resend.emails.receiving.list();
 
 
         if(error){
@@ -32,16 +32,18 @@ module.exports = async (req,res)=>{
 
             subject: email.subject || "No Subject",
 
+            text: email.text || "",
+
             time: new Date(email.created_at)
             .toLocaleString()
 
         }));
 
 
-        res.status(200).json(emails);
+        res.json(emails);
 
 
-    } catch(err){
+    }catch(err){
 
         res.status(500).json({
             error:err.message
