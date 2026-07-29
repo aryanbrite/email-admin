@@ -52,7 +52,7 @@ async function loadEmails(){
             box.innerHTML = `
 
             <p class="emailname">
-            ${email.from}
+            ${email.from}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
 
 
