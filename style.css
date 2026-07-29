@@ -113,7 +113,7 @@ textarea::selection{
     flex: 6;
 }
 .emailsub {
-    flex:60;
+    flex:120;
 }
 .emailtime{
     flex:1;
