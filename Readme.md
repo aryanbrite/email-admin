@@ -20,9 +20,14 @@
 
 > [!IMPORTANT]
 > **AI Usage:** No AI coding assistants like Copilot, Cursor or Claude Code were used to write or edit the code for this project. ChatGPT was used only for occasional conceptual guidance and CSS references but not directly copy pasted except the javascript files, I used chatgpt to write the comose.js file for me that was edited by myself later accouring to my needs and The UI i made. I used AI to directly copy paste in other js files too that was arounf 70% of the content but reviewed by me.
+>
+>Reship Edit
+I added the email inbox feature. the frontend is made by me but i used chatgpt to write the javascipt in the api and in root folder. The inbound resend api is pritty new so it took me a while to experiment and finnaly make it woorked.
 
 > [!NOTE]
 > I know that it doesnt have any gate right now. I will add this in upcoming few days and the read email feature too.
+>
+>in future ill add a feature to reply to the same email in thread.
 
 ## Screenshot
 ![screenshot](assets/ss.png)
